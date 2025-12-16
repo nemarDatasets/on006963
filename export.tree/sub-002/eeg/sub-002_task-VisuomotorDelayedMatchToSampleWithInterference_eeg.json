@@ -1,0 +1,20 @@
+{
+  "InstitutionAddress": "Ardeystrasse 67, 44139 Dortmund, North-Rhine Westphalia, Germany",
+  "InstitutionName": "Leibniz Research Centre for Working Environment and Human Factors",
+  "InstitutionalDepartmentName": "Ergonomics - Information Processing",
+  "CapManufacturer": "EasyCap",
+  "CapManufacturersModelName": "actiCAP 64",
+  "Manufacturer": "BrainProducts",
+  "ManufacturersModelName": "BrainAmp DC",
+  "EEGReference": "FCz",
+  "SoftwareFilters": "n/a",
+  "PowerLineFrequency": 50,
+  "EEGGround": "Electrode placed at AFz",
+  "RecordingType": "continuous",
+  "EEGPlacementScheme": "10-20",
+  "TaskName": "VisuomotorDelayedMatchToSampleWithInterference",
+  "EEGChannelCount": 64,
+  "RecordingDuration": 8750.031000000001,
+  "SamplingFrequency": 1000,
+  "SubjectArtefactDescription": "No notes"
+}
