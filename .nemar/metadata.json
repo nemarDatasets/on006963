@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Motor Control Processes Moderate Visual Working Memory Gating Dataset",
+  "description": "This dataset contains raw EEG recordings and behavioral data from 32 participants performing a visuomotor delayed match-to-sample task with motor and visual interference. The study investigates how motor control processes moderate visual working memory gating using a 2×2 within-subject design manipulating motor interference (same/different hand) and visuomotor interference (motor/visual). The dataset includes 10 experimental blocks with 1,200 trials per participant, along with detailed event markers and participant metadata.",
+  "methods_description": "EEG recordings were collected during a visuomotor delayed match-to-sample task with a 2×2 within-subject design. Each trial presented a colored stimulus (500 ms) followed by a 2,900 ms delay period, during which interference tasks occurred in two-thirds of trials. Participants reported target color using a knob-controlled color wheel (4,000 ms response window). Interference conditions included motor interference (gray triangles) and visuomotor interference (colored triangles with 60–90 degree hue shift). The experiment comprised 10 blocks of 120 trials each, plus 240 baseline trials. Mean participant age was 23.7 years (SD=2.9).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,12 +17,27 @@
       "orcid": "0000-0002-2867-2613"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds006963.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "visual working memory"
+    },
+    {
+      "term": "motor interference"
+    },
+    {
+      "term": "visuomotor control"
+    },
+    {
+      "term": "delayed match-to-sample task"
+    },
+    {
+      "term": "attention gating"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1523/JNEUROSCI.0673-25.2025",
       "identifier_type": "DOI",
@@ -35,42 +52,26 @@
       "identifier": "https://nemar.org/dataset/on006963",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds006963.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "56.7 GB (33 files)"
   ],
   "formats": [
     ".json",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset contains raw EEG recordings and behavioral data from 32 participants performing a visuomotor delayed match-to-sample task with motor and visual interference. The study investigates how motor control processes moderate visual working memory gating using a 2×2 within-subject design manipulating motor interference (same-hand vs. different-hand) and visuomotor interference (motor vs. visuomotor). Participants reported target colors using a knob-controlled color wheel while performing concurrent interference tasks during the memory delay period.",
-  "methods_description": "EEG recordings were collected during a visuomotor delayed match-to-sample task with 10 blocks of 120 trials each. Stimuli (colored squares or diamonds) were presented for 500 ms followed by a 2900 ms delay. Interference tasks (gray or colored triangles) occurred at 900 ms during the delay in two-thirds of trials, requiring hand-specific responses. Participants reported target color using a knob-controlled color wheel with 4000 ms response window. Inter-trial intervals ranged from 800-1400 ms.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "working memory"
-    },
-    {
-      "term": "motor control"
-    },
-    {
-      "term": "visual interference"
-    },
-    {
-      "term": "visuomotor task"
-    },
-    {
-      "term": "delayed response"
-    }
-  ],
-  "source_hash": "730d177aa1ae37fc2264e6564d05d42ca5d562ef8fa9b2ad40296f44445ae392"
+  "source_hash": "cd64d177de6cedf3bb8a1cb1a062549786017b62bacb57499e7fb06a6ac73728"
 }
