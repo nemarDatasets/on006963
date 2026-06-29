@@ -1,29 +1,76 @@
 {
   "version": "2.0",
-  "dataset_id": "on006963",
-  "source": "openneuro",
-  "source_id": "ds006963",
+  "pipeline_stage": "validated",
   "title": "Motor Control Processes Moderate Visual Working Memory Gating Dataset",
-  "authors": {
-    "Şahcan Özdemir": {},
-    "Eren Günseli": {},
-    "Daniel Schneider": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Şahcan Özdemir": {
+      "orcid": "0000-0002-2541-2963"
+    },
+    "Eren Günseli": {
+      "orcid": "0000-0002-7944-7774"
+    },
+    "Daniel Schneider": {
+      "orcid": "0000-0002-2867-2613"
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006963.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1523/JNEUROSCI.0673-25.2025",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006963",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006963",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v1.10.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset contains raw EEG recordings and behavioral data from 32 participants performing a visuomotor delayed match-to-sample task with motor and visual interference. The study investigates how motor control processes moderate visual working memory gating using a 2×2 within-subject design manipulating motor interference (same-hand vs. different-hand) and visuomotor interference (motor vs. visuomotor). Participants reported target colors using a knob-controlled color wheel while performing concurrent interference tasks during the memory delay period.",
+  "methods_description": "EEG recordings were collected during a visuomotor delayed match-to-sample task with 10 blocks of 120 trials each. Stimuli (colored squares or diamonds) were presented for 500 ms followed by a 2900 ms delay. Interference tasks (gray or colored triangles) occurred at 900 ms during the delay in two-thirds of trials, requiring hand-specific responses. Participants reported target color using a knob-controlled color wheel with 4000 ms response window. Inter-trial intervals ranged from 800-1400 ms.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "visual interference"
+    },
+    {
+      "term": "visuomotor task"
+    },
+    {
+      "term": "delayed response"
+    }
+  ],
+  "source_hash": "730d177aa1ae37fc2264e6564d05d42ca5d562ef8fa9b2ad40296f44445ae392"
 }
