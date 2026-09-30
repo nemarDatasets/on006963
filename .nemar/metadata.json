@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Motor Control Processes Moderate Visual Working Memory Gating Dataset",
-  "description": "This dataset contains raw EEG recordings and behavioral data from a study investigating how motor control processes moderate visual working memory gating. Thirty-two participants performed a delayed match-to-sample task with motor and visuomotor interference conditions during the memory delay period, using a 2×2 within-subject design. The dataset accompanies a published paper in The Journal of Neuroscience and includes EEG data and participant response data for analyzing the interaction between motor control and working memory maintenance.",
-  "methods_description": "Participants completed a visuomotor delayed match-to-sample task with interference. Each trial began with a colored square or diamond shown for 500 ms, followed by a 2900 ms delay during which participants reported the target color using a color wheel controlled by a knob. In two-thirds of trials, an interference task occurred at 900 ms involving a directional triangle requiring a button press with the corresponding hand; interference could be motor (gray triangle) or visuomotor (colored triangle with hue shifted from target color). The experiment consisted of 10 blocks of 120 trials each, including 240 baseline trials with no interference. EEG was recorded throughout, and raw (unpreprocessed) data along with behavioral data are included.",
+  "description": "Raw (unpreprocessed) EEG recordings and behavioral data from 32 participants performing a visuomotor delayed match-to-sample task with interference. The study examined how motor control processes moderate visual working memory gating. Conditions crossed motor versus visuomotor interference with same versus different hand responses, alongside baseline trials with no interference.",
+  "methods_description": "Participants performed a delayed color-reproduction task in a 2x2 within-subject design (same-hand or different-hand, motor or visuomotor interference) plus 240 baseline trials, across 10 blocks of 120 trials. A colored square or diamond target was shown for 500 ms, followed by a 2900 ms delay, and then participants reported the target color on a color wheel using a left or right knob. In two-thirds of trials, a left- or right-pointing triangle appeared at 900 ms during the delay and required a knob press. The triangles were gray in the motor condition and colored in the visuomotor condition. EEG was recorded throughout, and behavioral data are stored in EEG.behaviordata.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,31 +22,26 @@
       "term": "EEG"
     },
     {
-      "term": "Memory, Short-Term",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008570"
+      "term": "working memory"
     },
     {
       "term": "motor control"
     },
     {
-      "term": "visual working memory"
-    },
-    {
       "term": "working memory gating"
     },
     {
-      "term": "delayed match-to-sample task"
+      "term": "visuomotor interference"
     },
     {
-      "term": "visuomotor interference"
+      "term": "delayed match-to-sample"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1523/JNEUROSCI.0673-25.2025",
       "identifier_type": "DOI",
-      "relation_type": "IsSupplementTo"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on006963",
@@ -69,7 +64,7 @@
     "eeg"
   ],
   "sizes": [
-    "56.7 GB (33 files)"
+    "52.80 GB (33 files)"
   ],
   "formats": [
     ".json",
